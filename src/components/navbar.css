@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;                    
+    align-items: center;              
+    justify-content: space-between;    
+    padding: 2px 2px;               
+    background-color: #f8f8f8;        
+    width: 100%;                      
+}
+.logo-container {
+    flex: 1;                         
+}
+
+.navbar-items {
+    display: flex;                    
+    list-style: none;                 
+    margin: 10;                        
+    padding: 10;                      
+    justify-content: center;          
+    flex: 3;                         
+}
+
+.navbar-items li {
+    margin: 70px;                   
+    cursor: pointer;                 
+}
+
+.badge {
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    background-color: rgb(243, 125, 150);
+    color: black;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.carrito {
+    position: relative;               
+    font-size: 20px;                  
+    color: rgb(42, 106, 224);                   
+    cursor: pointer;               
+}
